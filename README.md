@@ -64,13 +64,13 @@ X_train, X_dev, y_train, y_dev = train_test_split(X, y, test_size=0.2, random_st
 In the subsequent code blocks, you will build classifers using `X_train` and `y_train`, predict outputs for `X_dev`, and evaluate your predictions against `y_dev`, as described in the remaining steps.
 
 ## 3. Building and evaluating new models with your train and dev set
-Okay, now you need to start building new models with the new train set you created and evaluating those models with the dev set. Your goal is to try to beat the classification accurcy of the Random Forest classifier from the tutorial. Here are some suggestions:
+Okay, now you need to start building new models with the new train set you created and evaluating those models with the dev set. Your goal is to try to beat the classification accuracy of the Random Forest classifier from the tutorial. Here are some suggestions:
 
 1. Build each of the four classifiers we've learned so far using your new train partition: [`LogisticRegression`](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html), [`DecisionTreeClassifier`](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html), [`RandomForestClassifier`](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html), and [`GradientBoostingClassifier`](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html#sklearn.ensemble.GradientBoostingClassifier). Evaluate them using your new dev partition. 
 
 2. Change the parameters of those models to see if you can find improvements. For example, for `RandomForestClassifier`, you can increase or decrease the number of estimators. Not sure what all the parameters are? Check out the documentation by following the links to the classes above. It's okay if you don't totally understand what the parameters are doing.
 
-3. Change the features you use to do preditions. The baseline model in the tutorial uses just `["Pclass", "Sex", "SibSp", "Parch"]`. Try using fewer features or more features or different features. Make an effort to fill in empty values with means, modes, or medians! Don't forget to convert string categorical variables to integers with `factorize` or `get_dummies()`.
+3. Change the features you use to do preditions. The baseline model in the tutorial uses just `["Pclass", "Sex", "SibSp", "Parch"]`. Try using fewer features or more features or different features. Make an effort to fill in empty values with means, modes, or medians! Don't forget to convert string categorical variables to integers with `factorize()` or `get_dummies()`.
 
 ## 4. Submit your predictions
 
