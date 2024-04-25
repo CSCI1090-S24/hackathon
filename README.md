@@ -1,6 +1,10 @@
 # Kaggle Hackathon
 
-Today you will be experimenting with different machine learning models for the beginner Kaggle competition using the Titanic dataset. You will work with your team members to try to improve upon the results for the random forest classifier demonstrated in the tutorial for this competition. Let's get started
+Today you will be experimenting with different machine learning models for the beginner Kaggle competition using the Titanic dataset. You will work with your team members to try to improve upon the results for the random forest classifier demonstrated in the tutorial for this competition. 
+
+**This assignment counts toward your Discussion and Class Participation grade, which is 10% of your final grade in the class.**
+
+Let's get started
 
 ## Teams
 Here are the teams:
@@ -111,5 +115,5 @@ Once you are done with all your experiments and have submitted 10 (or more) subm
 3. Take a screenshot of your leaderboard results.
 4. Put the notebook and the screenshot in your GitHub repo, commit, and push. **Each teammate should do add the components to their personal GitHub repo.
 
-**This is due Friday, April 26, 11:59pm EDT.**
+**This is due Friday, April 26, 11:59pm EDT.** 
 
