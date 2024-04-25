@@ -107,7 +107,7 @@ It's totally fine if your results are not any better than any of your other mode
 Once you are done with all your experiments and have submitted 10 (or more) submissions to the competition, you will do the following:
 
 1. Insert a text cell at the top of your final Kaggle notebook and enter your names.
-2. Download your Kaggle notebook (`File->Download notebook`) to your computer. Rename the notebook to be `TeamMember1Name_TeamMember2Name_Titanic.ipynb`. Make sure the notebook includes a good selection of experiments with the classifiers we have learned and all three experiments with the new classifiers you chose. Indicate which experiment corresponds to which leaderboard entry.
+2. Download your Kaggle notebook (`File->Download notebook`) to your computer. Rename the notebook to be `TeamMember1Name_TeamMember2Name_Titanic.ipynb`. Make sure the notebook includes a good selection of experiments with the classifiers we have learned and all three experiments with the new classifiers you chose. Indicate which experiment corresponds to which leaderboard entry. **Comment you code well so we understand what you are doing!**
 3. Take a screenshot of your leaderboard results.
 4. Put the notebook and the screenshot in your GitHub repo, commit, and push. **Each teammate should do add the components to their personal GitHub repo.
 
