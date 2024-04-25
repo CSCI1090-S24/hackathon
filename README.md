@@ -113,7 +113,7 @@ Once you are done with all your experiments and have submitted 10 (or more) subm
 1. Insert a text cell at the top of your final Kaggle notebook and enter your names.
 2. Download your Kaggle notebook (`File->Download notebook`) to your computer. Rename the notebook to be `TeamMember1Name_TeamMember2Name_Titanic.ipynb`. Make sure the notebook includes a good selection of experiments with the classifiers we have learned and all three experiments with the new classifiers you chose. Indicate which experiment corresponds to which leaderboard entry. **Comment you code well so we understand what you are doing!**
 3. Take a screenshot of your leaderboard results.
-4. Put the notebook and the screenshot in your GitHub repo, commit, and push. **Each teammate should do add the components to their personal GitHub repo.
+4. Put the notebook and the screenshot in your GitHub repo, commit, and push. **Even though this is a team project, each teammate should add these two files to their personal GitHub repo.**
 
 **This is due Friday, April 26, 11:59pm EDT.** 
 
