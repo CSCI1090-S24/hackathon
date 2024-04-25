@@ -44,7 +44,7 @@ Select one person on your team to be the submitter. Then do the following togeth
 An interesting note about the code: in the code I've shared with you, I used the pandas `factorize()` function to convert "male" and "female" to `0` and `1`. I learned from this notebook that you can do the same thing with the function `get_dummies()`. From what I understand, `get_dummies()` only works for binary labels (0, 1), while factorize can create more than 2 labels if necessary. There are other differences as well.
 
 ## 2. Creating a dev (development) set from the training data
-You are only allowed to submit a few submissions per day to Kaggle. In order to avoid being locked out of submitting, you must experiment with the training data until you think you've got a good model, and only then will you test on the official test data and submit your predictions to Kaggle.  
+You are only allowed to submit a few submissions per day to Kaggle (10 or 12, I think). In order to avoid being locked out of submitting, you must experiment with the training data until you think you've got a good model, and only then will you test on the official test data and submit your predictions to Kaggle.  
 
 You will take the provided training data and partition it into a **training** set and  **development** set. You will build models with that new training set (a subset of the original training data) and test it on the development set. Then, when you've got good accuracy on that development set, you will train on the whole training set, test on the official test set, and submit your predictions to Kaggle.
 
@@ -86,7 +86,7 @@ Okay, now you need to start building new models with the new train set you creat
 features = ["Pclass", "Sex", "SibSp", "Parch"]
 ```
 
-3. Then change the line of code that initializes the mode so that you initialize the model with the parameterization that worked best for you. Here's that line of code:
+3. Then change the line of code that initializes the model so that you initialize the model that worked best with the parameterization that worked best for you. Here's that line of code:
 
 ```
 model = RandomForestClassifier(n_estimators=100, max_depth=5, random_state=1)
